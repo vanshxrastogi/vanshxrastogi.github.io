@@ -415,87 +415,122 @@
   "tools": [
     {
       "name": "Higgsfield",
-      "group": "Motion & Cinema",
+      "group": "01 / Video Generation",
       "logo": "/logos/higgsfield.svg",
-      "url": "https://higgsfield.ai/"
+      "url": "https://higgsfield.ai/",
+      "description": "AI scenes, cinematic motion and visual effects."
     },
     {
       "name": "Seedance",
-      "group": "Motion & Cinema",
+      "group": "01 / Video Generation",
       "logo": "/logos/seedance.ico",
-      "url": "https://seed.bytedance.com/en/"
+      "url": "https://seed.bytedance.com/en/",
+      "description": "Video generation from creative inputs."
     },
     {
       "name": "Runway",
-      "group": "Motion & Cinema",
+      "group": "01 / Video Generation",
       "logo": "/logos/runway.png",
-      "url": "https://runway.com/"
+      "url": "https://runway.com/",
+      "description": "Generate and edit video, images and audio."
     },
     {
       "name": "MiniMax",
-      "group": "Motion & Cinema",
+      "group": "01 / Video Generation",
       "logo": "/logos/minimax.webp",
-      "url": "https://www.minimax.io/"
+      "url": "https://www.minimax.io/",
+      "description": "Generative AI models and media tools."
     },
     {
       "name": "Google Flow",
-      "group": "Motion & Cinema",
+      "group": "01 / Video Generation",
       "logo": "/logos/flow.png",
-      "url": "https://labs.google/fx/tools/flow"
+      "url": "https://labs.google/fx/tools/flow",
+      "description": "AI filmmaking and scene creation."
     },
     {
       "name": "Kling AI",
-      "group": "Motion & Cinema",
+      "group": "01 / Video Generation",
       "logo": "/logos/kling.png",
-      "url": "https://klingai.com/"
+      "url": "https://klingai.com/",
+      "description": "AI video and image generation."
     },
     {
       "name": "ChatGPT",
-      "group": "Images & Concepts",
+      "group": "02 / Images & Story Development",
       "logo": "/logos/chatgpt.svg",
-      "url": "https://chatgpt.com/"
+      "url": "https://chatgpt.com/",
+      "description": "Ideas, scripts and visual concepts."
     },
     {
       "name": "Midjourney",
-      "group": "Images & Concepts",
+      "group": "02 / Images & Story Development",
       "logo": "/logos/midjourney.png",
-      "url": "https://www.midjourney.com/"
+      "url": "https://www.midjourney.com/",
+      "description": "Image generation and visual exploration."
     },
     {
       "name": "ComfyUI",
-      "group": "Images & Concepts",
+      "group": "02 / Images & Story Development",
       "logo": "/logos/comfyui.png",
-      "url": "https://comfy.org/"
+      "url": "https://comfy.org/",
+      "description": "Node-based generative image workflows."
     },
     {
       "name": "ElevenLabs",
-      "group": "Voice & Music",
+      "group": "03 / Voice, Music & Sound",
       "logo": "/logos/elevenlabs.svg",
-      "url": "https://elevenlabs.io/"
+      "url": "https://elevenlabs.io/",
+      "description": "Voiceover, dubbing and sound effects."
     },
     {
       "name": "Suno",
-      "group": "Voice & Music",
+      "group": "03 / Voice, Music & Sound",
       "logo": "/logos/suno.png",
-      "url": "https://suno.com/"
+      "url": "https://suno.com/",
+      "description": "Music and song generation."
     },
     {
       "name": "DaVinci Resolve",
-      "group": "Post & Finishing",
+      "group": "04 / Editing, Colour & 3D",
       "logo": "/logos/davinciresolve.svg",
-      "url": "https://www.blackmagicdesign.com/products/davinciresolve"
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "description": "Editing, colour grading and finishing."
     },
     {
       "name": "Blender",
-      "group": "Post & Finishing",
+      "group": "04 / Editing, Colour & 3D",
       "logo": "/logos/blender.svg",
-      "url": "https://www.blender.org/"
+      "url": "https://www.blender.org/",
+      "description": "3D scenes, animation and virtual cameras."
     },
     {
       "name": "Premiere Pro",
-      "group": "Post & Finishing",
+      "group": "04 / Editing, Colour & 3D",
       "logo": "/logos/adobepremierepro.svg",
-      "url": "https://www.adobe.com/products/premiere.html"
+      "url": "https://www.adobe.com/products/premiere.html",
+      "description": "Timeline editing and film assembly."
+    },
+    {
+      "name": "Higgsfield Cinema Studio",
+      "group": "05 / Camera & Scene Direction",
+      "logo": "/logos/higgsfield.svg",
+      "url": "https://higgsfield.ai/cinema-studio",
+      "description": "Cinema-oriented scene creation within Higgsfield."
+    },
+    {
+      "name": "Eleven Music",
+      "group": "03 / Voice, Music & Sound",
+      "logo": "/logos/elevenlabs.svg",
+      "url": "https://elevenlabs.io/music",
+      "description": "Generate music and shape a track’s composition."
+    },
+    {
+      "name": "DaVinci Fairlight",
+      "group": "03 / Voice, Music & Sound",
+      "logo": "/logos/davinciresolve.svg",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/fairlight",
+      "description": "Dialogue cleanup, sound editing and final mixes."
     }
   ],
   "background": "/media/red-background.png",

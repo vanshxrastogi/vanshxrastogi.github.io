@@ -177,3 +177,13 @@ body #home .hero-top{display:none}
 .work-group-heading h3{font-size:clamp(22px,3vw,36px);letter-spacing:-.02em}.work-group{position:relative}.work-group:before{content:'';position:absolute;top:-1px;left:0;width:70px;height:2px;background:#e7be94}
 @media(max-width:600px){.sector-browser{padding:16px}.sector-buttons{flex-wrap:nowrap;overflow-x:auto;padding-bottom:8px}.sector-button{white-space:nowrap;flex-shrink:0}}
 @media(prefers-reduced-motion:reduce){.sector-button{transition:none}.sector-button:hover{transform:none}}
+
+#tools{display:block}.tool-group{margin:28px 0}.tool-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+body .tool-card{display:flex;align-items:flex-start;flex-direction:column;text-align:left;min-height:235px;padding:24px;border:1px solid #e9cba32b;border-radius:18px;background:radial-gradient(at top right,#c7995730,transparent 70%),#171217}
+body .tool-card img{width:64px;height:48px;max-width:100%;object-fit:contain;filter:none;margin:0 0 18px}
+.tool-card h4{font-size:19px;margin:0 0 10px;color:#fff1e3}.tool-card p{font-size:13px;line-height:1.6;color:#cfc3cb;margin:0 0 18px}
+.tool-actions{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:auto;font-size:10px;letter-spacing:.04em}.tool-actions button{background:none;border:0;color:#e9cba3;cursor:pointer;font:inherit;padding:8px 0}
+.tool-dialog{width:min(560px,90vw);border:1px solid #e9cba35c;border-radius:24px;padding:32px;background:#1b131a;color:#fff0df}.tool-dialog::backdrop{background:#09070bd9;backdrop-filter:blur(8px)}.tool-close{display:block;margin-left:auto;background:none;color:inherit;border:0;padding:10px;cursor:pointer}.tool-dialog h2{font-size:32px}.tool-dialog p{line-height:1.7}.tool-dialog .button{margin-top:20px}
+.camera-guide{border-top:1px solid #ffffff25;margin-top:32px;padding-top:32px}.camera-guide h3{font-size:clamp(24px,4vw,40px);letter-spacing:-.03em}
+.shot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:24px 0}.shot-grid details{padding:18px;border:1px solid #ffffff25;border-radius:12px;background:#ffffff05}.shot-grid summary{cursor:pointer;font-weight:600}.shot-grid p{font-size:13px;line-height:1.6}.camera-links{display:flex;gap:12px;flex-wrap:wrap}.camera-links a{padding:14px;border:1px solid #e9cba34a;border-radius:10px;font-size:12px}
+@media(max-width:800px){.tool-grid,.shot-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.tool-grid,.shot-grid{grid-template-columns:1fr}body .tool-card{min-height:0}}
