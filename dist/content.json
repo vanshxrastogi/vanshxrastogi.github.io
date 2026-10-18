@@ -44,7 +44,9 @@
       "video": "/media/memory-walk-web.mp4",
       "poster": "/media/memory-walk-poster.jpg",
       "description": "A creative AI visual experiment.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "STORYTELLING",
+      "filmTypeLabel": "CREATIVE REEL"
     },
     {
       "id": "a-story-of-us",
@@ -57,7 +59,9 @@
       "poster": "/media/prewedding-poster.jpg",
       "description": "A cinematic pre-wedding shoot.",
       "status": "published",
-      "featuredDescription": "A cinematic pre-wedding story, told through wide landscapes and intimate moments."
+      "featuredDescription": "A cinematic pre-wedding story, told through wide landscapes and intimate moments.",
+      "industryLabel": "PRE-WEDDING",
+      "filmTypeLabel": "WEDDING FILM"
     },
     {
       "id": "ferrari-f40-velvet",
@@ -70,7 +74,9 @@
       "poster": "/media/ferrari-f40-poster.jpg",
       "description": "A conceptual CGI automotive advertisement with a velvet-red visual treatment.",
       "status": "published",
-      "featuredDescription": "A sculptural automotive concept in a rich velvet-red visual world."
+      "featuredDescription": "A sculptural automotive concept in a rich velvet-red visual world.",
+      "industryLabel": "AUTOMOTIVE",
+      "filmTypeLabel": "CGI CONCEPT"
     },
     {
       "id": "storylab-brand-ad",
@@ -82,7 +88,9 @@
       "video": "/media/storylab-brand-ad.mp4",
       "poster": "/media/storylab-brand-poster.jpg",
       "description": "An AI brand-film concept featuring cinematic product and visual storytelling.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "BRAND",
+      "filmTypeLabel": "AI CONCEPT"
     },
     {
       "id": "saat-din-baki",
@@ -95,7 +103,9 @@
       "poster": "/media/saat-din-baki-poster.jpg",
       "description": "सात दिन बाकी — Part 1 of a vertical micro-drama.",
       "status": "published",
-      "featuredDescription": "Part 1 of an original vertical micro-drama. A story designed for the close-up."
+      "featuredDescription": "Part 1 of an original vertical micro-drama. A story designed for the close-up.",
+      "industryLabel": "STORYTELLING",
+      "filmTypeLabel": "MICRO DRAMA"
     },
     {
       "id": "makeout-x",
@@ -108,7 +118,9 @@
       "video": "/media/makeout-x-hd.mp4",
       "poster": "/media/makeout-x-poster.jpg",
       "description": "MakeOut X — a cinematic brand advertisement.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "BRAND",
+      "filmTypeLabel": "COMMERCIAL"
     },
     {
       "id": "ek-darwaza-do-duniya",
@@ -120,7 +132,9 @@
       "video": "/media/ek-darwaza-do-duniya-hd.mp4",
       "poster": "/media/ek-darwaza-do-duniya-poster.jpg",
       "description": "An imaginary AI reel exploring a doorway between two worlds.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "STORYTELLING",
+      "filmTypeLabel": "CREATIVE REEL"
     },
     {
       "id": "last-bus-creative",
@@ -132,7 +146,9 @@
       "video": "/media/last-bus-creative.mp4",
       "poster": "/media/last-bus-creative-poster.jpg",
       "description": "An imagined AI action sequence set on a night bus, with cinematic lighting and character-driven tension.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "STORYTELLING",
+      "filmTypeLabel": "CREATIVE REEL"
     },
     {
       "id": "vice-city-dreams",
@@ -144,7 +160,9 @@
       "video": "/media/vice-city-dreams.mp4",
       "poster": "/media/vice-city-dreams-poster.jpg",
       "description": "An independent AI visual concept inspired by GTA aesthetics: palm-lined streets, vivid city colour and cinematic driving scenes.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "GAMING INSPIRED",
+      "filmTypeLabel": "CREATIVE REEL"
     },
     {
       "id": "maggi-two-minute-story",
@@ -156,7 +174,9 @@
       "video": "/media/maggi-two-minute-story.mp4",
       "poster": "/media/maggi-two-minute-story-poster.jpg",
       "description": "An independently created AI brand concept for Maggi, combining an Indian story setting with a product-led finish.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "FOOD",
+      "filmTypeLabel": "BRAND CONCEPT"
     },
     {
       "id": "rooftop-after-dark",
@@ -168,7 +188,9 @@
       "video": "/media/rooftop-after-dark.mp4",
       "poster": "/media/rooftop-after-dark-poster.jpg",
       "description": "An imagined romantic rooftop scene inspired by Spider-Man cinema, set against a glowing night skyline.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "SUPERHERO INSPIRED",
+      "filmTypeLabel": "CREATIVE REEL"
     },
     {
       "id": "navyug-public-school",
@@ -180,7 +202,9 @@
       "video": "/media/navyug-public-school.mp4",
       "poster": "/media/navyug-public-school-poster.jpg",
       "description": "A narrative-led school advertisement for Navyug Public School, combining character scenes with a school identity end card.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "EDUCATION",
+      "filmTypeLabel": "BRAND FILM"
     },
     {
       "id": "lyon-weaved-bowler-bag",
@@ -192,7 +216,9 @@
       "video": "/media/lyon-weaved-bowler-bag.mp4",
       "poster": "/media/lyon-weaved-bowler-bag-poster.jpg",
       "description": "An AI-created UGC-style product ad for the Classicuir Lyon Weaved Bowler Bag, showcasing the woven finish, everyday styling and interior details.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "FASHION & BAGS",
+      "filmTypeLabel": "UGC AD"
     },
     {
       "id": "dubai-creative-film",
@@ -204,7 +230,9 @@
       "video": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/dubai-shots.mp4",
       "poster": "https://vansh-rastogi-film.unscriptedstorylab.chatgpt.site/media/dubai-creative-film-poster.jpg",
       "description": "An independent creative film exploring desert drives and the Dubai skyline through cinematic AI visuals. Personal creative work, not a commissioned advertisement.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "TRAVEL / DUBAI",
+      "filmTypeLabel": "CREATIVE FILM"
     },
     {
       "id": "goju-travel",
@@ -216,7 +244,9 @@
       "video": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/goju-travel.mp4",
       "poster": "https://vansh-rastogi-film.unscriptedstorylab.chatgpt.site/media/goju-travel-poster.jpg",
       "description": "An independent AI travel concept film following an airport journey. Presented as creative portfolio work; no official brand partnership is implied.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "TRAVEL",
+      "filmTypeLabel": "BRAND CONCEPT"
     },
     {
       "id": "goju-cricket",
@@ -228,7 +258,9 @@
       "video": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/goju-cricket.mp4",
       "poster": "https://vansh-rastogi-film.unscriptedstorylab.chatgpt.site/media/goju-cricket-poster.jpg",
       "description": "An independent AI cricket concept film with stadium action and sports storytelling. Presented as creative portfolio work; no official endorsement is implied.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "SPORTS / CRICKET",
+      "filmTypeLabel": "BRAND CONCEPT"
     },
     {
       "id": "room-4-ai-voice-experiment",
@@ -240,7 +272,9 @@
       "video": "/media/elevenlabs-room-4.mp4",
       "poster": "/media/room-4-ai-voice-experiment-poster.jpg",
       "description": "An independent AI voice concept featuring an interrogation scene and an emotional voice-performance montage, ending with an ElevenLabs concept endcard. Creative portfolio work; no official brand affiliation or commissioned campaign is implied.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "AI VOICE",
+      "filmTypeLabel": "CREATIVE CONCEPT"
     },
     {
       "id": "kisper-ultra-desert-adventure",
@@ -252,7 +286,9 @@
       "video": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/kisper-ultra.mp4",
       "poster": "/media/kisper-ultra-desert-adventure-poster.jpg",
       "description": "An independent cinematic product concept following a desert adventure into a Kisper Ultra product reveal. Creative portfolio work; no official brand affiliation or commissioned campaign is implied.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "PRODUCT",
+      "filmTypeLabel": "ADVENTURE CONCEPT"
     },
     {
       "id": "buddha-english-full-film",
@@ -271,7 +307,9 @@
       "description": "An English-language full film titled Buddha, presented in its complete edit and original panoramic format.",
       "status": "published",
       "language": "English",
-      "presentationRatio": "21:9"
+      "presentationRatio": "21:9",
+      "industryLabel": "CINEMA",
+      "filmTypeLabel": "ENGLISH FULL FILM"
     },
     {
       "id": "kherashwar-mahadev-trailer",
@@ -288,7 +326,9 @@
       "poster": "/media/kherashwar-mahadev-trailer-poster.jpg",
       "description": "The trailer for Kherashwar Mahadev, presented in its complete edit and 21:9 cinematic presentation.",
       "status": "published",
-      "presentationRatio": "21:9"
+      "presentationRatio": "21:9",
+      "industryLabel": "CINEMA",
+      "filmTypeLabel": "TRAILER"
     },
     {
       "id": "indprop-nirmann",
@@ -303,7 +343,9 @@
       "video": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/indprop-nirmann.mp4",
       "poster": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/indprop-poster.jpg",
       "description": "Indprop Nirmann presented in its complete edit and original 9:16 format.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "REAL ESTATE",
+      "filmTypeLabel": "BRAND FILM"
     },
     {
       "id": "cotfit-mattress",
@@ -318,7 +360,9 @@
       "video": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/cotfit-mattress.mp4",
       "poster": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/cotfit-poster.jpg",
       "description": "Cotfit Mattress presented in its complete edit and original 16:9 format.",
-      "status": "published"
+      "status": "published",
+      "industryLabel": "MATTRESS",
+      "filmTypeLabel": "PRODUCT FILM"
     }
   ],
   "services": [

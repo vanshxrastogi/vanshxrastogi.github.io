@@ -156,3 +156,16 @@ body #home .hero-top{display:none}
 :where(a,button):focus-visible{outline:2px solid #f2a9c8;outline-offset:5px}
 @media(hover:hover){.film-card:hover{transform:translateY(-5px);border-color:#e9a6c580;box-shadow:0 18px 40px #0004}.film-card:hover .play{transform:scale(1.1);background:#a8486a99}.button:hover,.work-arrow:hover,.studio-social:hover{transform:translateY(-3px);box-shadow:0 7px 24px #bd608033}.tool-card:hover{border-color:#e9a6c5;transform:translateY(-4px)}}
 @media(prefers-reduced-motion:reduce){.film-card,.button,.folder-tab,.work-arrow,.format-tabs button,.studio-social,.tool-card,.play{transition:none!important;animation:none!important}.film-card:hover{transform:none}}
+
+/* Editorial project identifiers — industry first, film type second */
+.film-labels{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:4px 2px 12px;min-height:42px;line-height:1.4}
+.industry-chip{display:inline-flex;align-items:center;gap:7px;background:#f1d6b9;color:#231b20;border:1px solid #f1d6b9;border-radius:6px;padding:6px 9px;font-size:10px;font-weight:800;letter-spacing:.08em}
+.industry-chip:before{content:'';width:5px;height:5px;border-radius:50%;background:currentColor;flex-shrink:0}
+.type-chip{font-size:9px;letter-spacing:.09em;color:#e2d8df;border:1px solid #ffffff30;border-radius:6px;padding:6px 8px}
+.film-card .film-info h3{font-size:clamp(19px,2vw,26px);line-height:1.2;letter-spacing:-.025em}
+.film-card .project-description{line-height:1.65;color:#bdb1bb}
+.work-group-heading{padding-bottom:12px}.work-group-heading h3{letter-spacing:.04em}
+.work-group-description{margin-top:0;margin-bottom:24px;color:#c6bbc3}
+#film-content>.film-labels{padding-right:70px;margin-bottom:10px}
+.film-card:focus-visible .industry-chip,.film-card:hover .industry-chip{background:#fff0df}
+@media(max-width:600px){.film-labels{gap:6px}.industry-chip{font-size:9px}.type-chip{font-size:8px}}
