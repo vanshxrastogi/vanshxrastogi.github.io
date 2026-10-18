@@ -289,6 +289,36 @@
       "description": "The trailer for Kherashwar Mahadev, presented in its complete edit and 21:9 cinematic presentation.",
       "status": "published",
       "presentationRatio": "21:9"
+    },
+    {
+      "id": "indprop-nirmann",
+      "title": "Indprop Nirmann — Brand Film",
+      "category": "BRAND FILMS",
+      "role": "AI Filmmaking",
+      "duration": "00:58",
+      "aspectRatio": "9:16",
+      "width": 1080,
+      "height": 1920,
+      "durationSeconds": 58.27,
+      "video": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/indprop-nirmann.mp4",
+      "poster": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/indprop-poster.jpg",
+      "description": "Indprop Nirmann presented in its complete edit and original 9:16 format.",
+      "status": "published"
+    },
+    {
+      "id": "cotfit-mattress",
+      "title": "Cotfit Mattress — Product Film",
+      "category": "BRAND FILMS",
+      "role": "AI Filmmaking",
+      "duration": "00:49",
+      "aspectRatio": "16:9",
+      "width": 1280,
+      "height": 720,
+      "durationSeconds": 49.2,
+      "video": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/cotfit-mattress.mp4",
+      "poster": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/cotfit-poster.jpg",
+      "description": "Cotfit Mattress presented in its complete edit and original 16:9 format.",
+      "status": "published"
     }
   ],
   "services": [
@@ -441,6 +471,8 @@
     "goju-travel",
     "goju-cricket",
     "makeout-x",
-    "lyon-weaved-bowler-bag"
+    "lyon-weaved-bowler-bag",
+    "indprop-nirmann",
+    "cotfit-mattress"
   ]
 }
