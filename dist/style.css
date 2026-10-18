@@ -142,3 +142,17 @@ body #home .hero-top{display:none}
 
 /* Original cinema stays outside the commercial orientation shelves. */
 .cinema-grid{display:grid!important;grid-template-columns:1fr!important;gap:2.5rem;overflow:visible!important}.cinema-grid .film-card{width:100%;min-width:0}.cinema-grid .poster{height:auto!important;min-height:0;background:#080808}.cinema-grid .poster img{object-fit:contain!important}.cinema-grid .film-info{max-width:70ch}.cinema-grid .project-category{color:var(--accent,#dcaa86)}
+
+/* Ratio-led film gallery */
+.work-group{border-top:1px solid #ffffff24;padding-top:32px;margin-top:56px}
+.work-group-heading h3{letter-spacing:.08em}.work-group-description{max-width:48ch}
+.film-card{border:1px solid #ffffff20;border-radius:18px;padding:10px;background:linear-gradient(145deg,#ffffff0b,#ffffff02);transition:transform .25s,border-color .25s,box-shadow .25s}
+.film-card .poster{height:auto!important;background:#09080b;border-radius:10px;position:relative;overflow:hidden}
+.film-card .poster img{width:100%;height:100%;object-fit:contain!important;transform:none!important}
+.film-card .poster:after{content:'';position:absolute;inset:8px;border:1px solid #ffffff22;border-radius:4px;pointer-events:none}
+.film-card .film-info{padding:18px 10px 10px}.film-card .play{border:1px solid #fff9;backdrop-filter:blur(10px);transition:transform .25s,background .25s}
+.work-grid{cursor:grab;touch-action:pan-x pan-y}.work-grid.is-dragging{cursor:grabbing;scroll-snap-type:none;user-select:none}
+.button,.folder-tab,.work-arrow,.format-tabs button,.studio-social,.tool-card{transition:transform .2s,background .2s,border-color .2s,box-shadow .2s}
+:where(a,button):focus-visible{outline:2px solid #f2a9c8;outline-offset:5px}
+@media(hover:hover){.film-card:hover{transform:translateY(-5px);border-color:#e9a6c580;box-shadow:0 18px 40px #0004}.film-card:hover .play{transform:scale(1.1);background:#a8486a99}.button:hover,.work-arrow:hover,.studio-social:hover{transform:translateY(-3px);box-shadow:0 7px 24px #bd608033}.tool-card:hover{border-color:#e9a6c5;transform:translateY(-4px)}}
+@media(prefers-reduced-motion:reduce){.film-card,.button,.folder-tab,.work-arrow,.format-tabs button,.studio-social,.tool-card,.play{transition:none!important;animation:none!important}.film-card:hover{transform:none}}
