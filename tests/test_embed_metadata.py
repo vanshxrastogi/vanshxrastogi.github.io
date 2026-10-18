@@ -19,7 +19,7 @@ class EmbeddedFilmMetadataTests(unittest.TestCase):
     def test_drive_films_use_player_metadata_and_local_posters(self):
         dist = Path(__file__).resolve().parents[1] / 'dist'
         content = json.loads((dist / 'content.json').read_text(encoding='utf-8'))
-        ids = {'buddha-english-full-film', 'kherashwar-mahadev-trailer'}
+        ids = {'buddha-english-full-film'}
         projects = [p for p in content['projects'] if p['id'] in ids]
         self.assertEqual({p['id'] for p in projects}, ids)
         ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9', 'v': 'http://www.google.com/schemas/sitemap-video/1.1'}

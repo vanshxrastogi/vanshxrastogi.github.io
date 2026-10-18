@@ -270,7 +270,8 @@
       "poster": "/media/buddha-english-full-film-poster.jpg",
       "description": "An English-language full film titled Buddha, presented in its complete edit and original panoramic format.",
       "status": "published",
-      "language": "English"
+      "language": "English",
+      "presentationRatio": "21:9"
     },
     {
       "id": "kherashwar-mahadev-trailer",
@@ -285,8 +286,9 @@
       "height": 2160,
       "video": "https://github.com/vanshxrastogi/vanshxrastogi.github.io/releases/download/portfolio-originals-2026-10/kherashwar-mahadev-trailer.mp4",
       "poster": "/media/kherashwar-mahadev-trailer-poster.jpg",
-      "description": "The trailer for Kherashwar Mahadev, presented in its complete edit and original 16:9 format.",
-      "status": "published"
+      "description": "The trailer for Kherashwar Mahadev, presented in its complete edit and 21:9 cinematic presentation.",
+      "status": "published",
+      "presentationRatio": "21:9"
     }
   ],
   "services": [
