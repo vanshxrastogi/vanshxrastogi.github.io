@@ -1,0 +1,2 @@
+const input=document.querySelector('#article-search');
+if(input){const cards=[...document.querySelectorAll('[data-search]')];const status=document.querySelector('#search-status');input.addEventListener('input',()=>{const q=input.value.trim().toLowerCase();let count=0;cards.forEach(card=>{card.hidden=!card.dataset.search.includes(q);if(!card.hidden)count++});status.textContent=q?`${count} guide${count===1?'':'s'} found` : '';});}

@@ -18,6 +18,12 @@ def build(source=Path('dist'), destination=Path('_site'), site_url=None):
     if destination.exists():
         shutil.rmtree(destination)
     shutil.copytree(source, destination)
+    # Generate only for the actual repository, not isolated portable-build fixtures.
+    if source.resolve() == Path(__file__).resolve().parents[1] / 'dist':
+        import sys
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from build_blog import build_blog
+        build_blog(destination)
     text_types = {'.html', '.css', '.js', '.json', '.xml', '.txt', '.webmanifest'}
     for path in destination.rglob('*'):
         if not path.is_file() or path.suffix not in text_types:
@@ -44,7 +50,7 @@ def configure_adsense(destination):
     config_file = destination / 'monetization.json'
     if not config_file.exists():
         return
-    config = json.loads(config_file.read_text())
+    config = json.loads(config_file.read_text(encoding='utf-8'))
     publisher = config.get('publisherId', '')
     enabled = config.get('enableAds', False)
     if not publisher:
@@ -63,11 +69,16 @@ def configure_adsense(destination):
         code = meta
         if enabled and relative in eligible:
             code += script
-        text = path.read_text()
+        text = path.read_text(encoding='utf-8')
+        additions = ''
         if 'name="google-adsense-account"' not in text:
-            path.write_text(text.replace('</head>', code + '</head>', 1))
+            additions += meta
+        if enabled and relative in eligible and 'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' not in text:
+            additions += script
+        path.write_text(text.replace('</head>', additions + '</head>', 1), encoding='utf-8')
     (destination / 'ads.txt').write_text('google.com, ' + publisher.removeprefix('ca-') + ', DIRECT, f08c47fec0942fa0\n')
 
 if __name__ == '__main__':
     build()
+
 
