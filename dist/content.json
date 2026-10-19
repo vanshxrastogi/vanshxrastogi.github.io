@@ -46,7 +46,8 @@
       "description": "A creative AI visual experiment.",
       "status": "published",
       "industryLabel": "STORYTELLING",
-      "filmTypeLabel": "CREATIVE REEL"
+      "filmTypeLabel": "CREATIVE REEL",
+      "posterAlt": "Memory Walk — poster for an AI creative reel"
     },
     {
       "id": "a-story-of-us",
@@ -77,7 +78,8 @@
       "featuredDescription": "A sculptural automotive concept in a rich velvet-red visual world.",
       "industryLabel": "AUTOMOTIVE",
       "filmTypeLabel": "CAR / CGI CONCEPT",
-      "brandName": "Ferrari F40"
+      "brandName": "Ferrari F40",
+      "posterAlt": "Ferrari F40 — poster for a conceptual CGI automotive advertisement"
     },
     {
       "id": "storylab-brand-ad",
@@ -91,7 +93,8 @@
       "description": "An AI brand-film concept featuring cinematic product and visual storytelling.",
       "status": "published",
       "industryLabel": "BRAND",
-      "filmTypeLabel": "AI CONCEPT"
+      "filmTypeLabel": "AI CONCEPT",
+      "posterAlt": "Brand Film — poster for an AI visual storytelling concept"
     },
     {
       "id": "saat-din-baki",
@@ -106,7 +109,8 @@
       "status": "published",
       "featuredDescription": "Part 1 of an original vertical micro-drama. A story designed for the close-up.",
       "industryLabel": "STORYTELLING",
-      "filmTypeLabel": "MICRO DRAMA"
+      "filmTypeLabel": "MICRO DRAMA",
+      "posterAlt": "सात दिन बाकी — Part 1, vertical micro-drama poster"
     },
     {
       "id": "makeout-x",
@@ -121,7 +125,8 @@
       "description": "MakeOut X — a cinematic brand advertisement.",
       "status": "published",
       "industryLabel": "BRAND",
-      "filmTypeLabel": "COMMERCIAL"
+      "filmTypeLabel": "COMMERCIAL",
+      "posterAlt": "MakeOut X — cinematic brand advertisement poster"
     },
     {
       "id": "ek-darwaza-do-duniya",
@@ -135,7 +140,8 @@
       "description": "An imaginary AI reel exploring a doorway between two worlds.",
       "status": "published",
       "industryLabel": "STORYTELLING",
-      "filmTypeLabel": "CREATIVE REEL"
+      "filmTypeLabel": "CREATIVE REEL",
+      "posterAlt": "एक दरवाज़ा दो दुनिया — AI creative reel poster"
     },
     {
       "id": "last-bus-creative",
@@ -149,7 +155,8 @@
       "description": "An imagined AI action sequence set on a night bus, with cinematic lighting and character-driven tension.",
       "status": "published",
       "industryLabel": "STORYTELLING",
-      "filmTypeLabel": "CREATIVE REEL"
+      "filmTypeLabel": "CREATIVE REEL",
+      "posterAlt": "The Last Bus — poster for a cinematic AI action reel"
     },
     {
       "id": "vice-city-dreams",
@@ -163,7 +170,8 @@
       "description": "An independent AI visual concept inspired by GTA aesthetics: palm-lined streets, vivid city colour and cinematic driving scenes.",
       "status": "published",
       "industryLabel": "GAMING INSPIRED",
-      "filmTypeLabel": "CREATIVE REEL"
+      "filmTypeLabel": "CREATIVE REEL",
+      "posterAlt": "Vice City Dreams — poster for a GTA-inspired AI creative reel"
     },
     {
       "id": "maggi-two-minute-story",
@@ -178,7 +186,8 @@
       "status": "published",
       "industryLabel": "FOOD & FMCG",
       "filmTypeLabel": "INSTANT NOODLES",
-      "brandName": "Maggi"
+      "brandName": "Maggi",
+      "posterAlt": "Maggi — poster for an independently created AI brand concept"
     },
     {
       "id": "rooftop-after-dark",
@@ -192,7 +201,8 @@
       "description": "An imagined romantic rooftop scene inspired by Spider-Man cinema, set against a glowing night skyline.",
       "status": "published",
       "industryLabel": "SUPERHERO INSPIRED",
-      "filmTypeLabel": "CREATIVE REEL"
+      "filmTypeLabel": "CREATIVE REEL",
+      "posterAlt": "Rooftop After Dark — poster for a Spider-Man-inspired creative reel"
     },
     {
       "id": "navyug-public-school",
@@ -207,7 +217,8 @@
       "status": "published",
       "industryLabel": "EDUCATION",
       "filmTypeLabel": "SCHOOL",
-      "brandName": "Navyug Public School"
+      "brandName": "Navyug Public School",
+      "posterAlt": "Navyug Public School — narrative brand film poster"
     },
     {
       "id": "lyon-weaved-bowler-bag",
@@ -222,7 +233,8 @@
       "status": "published",
       "industryLabel": "FASHION",
       "filmTypeLabel": "HANDBAG",
-      "brandName": "Classicuir"
+      "brandName": "Classicuir",
+      "posterAlt": "Classicuir Lyon Weaved Bowler Bag — AI UGC-style product advertisement poster"
     },
     {
       "id": "dubai-creative-film",
@@ -236,7 +248,8 @@
       "description": "An independent creative film exploring desert drives and the Dubai skyline through cinematic AI visuals.",
       "status": "published",
       "industryLabel": "TRAVEL / DUBAI",
-      "filmTypeLabel": "CREATIVE FILM"
+      "filmTypeLabel": "CREATIVE FILM",
+      "posterAlt": "Dubai — poster for a cinematic AI creative film"
     },
     {
       "id": "goju-travel",
@@ -251,7 +264,8 @@
       "status": "published",
       "industryLabel": "BRAND STORY",
       "filmTypeLabel": "TRAVEL THEME",
-      "brandName": "GOJO"
+      "brandName": "GOJO",
+      "posterAlt": "GOJO — poster for a family travel brand story"
     },
     {
       "id": "goju-cricket",
@@ -265,7 +279,8 @@
       "description": "A cricket-themed brand film built around stadium action and sporting emotion.",
       "status": "published",
       "industryLabel": "BRAND STORY",
-      "filmTypeLabel": "CRICKET THEME"
+      "filmTypeLabel": "CRICKET THEME",
+      "posterAlt": "Goju — poster for a cricket-themed brand concept film"
     },
     {
       "id": "room-4-ai-voice-experiment",
@@ -280,7 +295,8 @@
       "status": "published",
       "industryLabel": "AI SOFTWARE",
       "filmTypeLabel": "VOICE GENERATION",
-      "brandName": "ElevenLabs"
+      "brandName": "ElevenLabs",
+      "posterAlt": "Room 4 — poster for an ElevenLabs AI voice concept film"
     },
     {
       "id": "kisper-ultra-desert-adventure",
@@ -295,7 +311,8 @@
       "status": "published",
       "industryLabel": "PERSONAL CARE",
       "filmTypeLabel": "SANITARY PADS",
-      "brandName": "Kisper Ultra"
+      "brandName": "Kisper Ultra",
+      "posterAlt": "Kisper Ultra — poster for a desert-adventure sanitary pad concept film"
     },
     {
       "id": "buddha-english-full-film",
