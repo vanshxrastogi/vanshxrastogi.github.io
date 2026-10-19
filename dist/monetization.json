@@ -1,11 +1,9 @@
 {
-  "publisherId": "",
+  "publisherId": "ca-pub-4425848148181831",
   "enableAds": false,
   "approvedSite": false,
   "consentConfigured": false,
-  "adPaths": [
-    "/guides/ai-film-brief.html",
-    "/guides/character-continuity.html"
-  ],
-  "note": "Set your real ca-pub identifier for ownership verification. Enable ads only after AdSense approval, content review and required privacy/consent setup."
+  "adPaths": [],
+  "note": "Ownership verified; review requested. Ads remain disabled pending site approval, consent and explicit placement review."
 }
+

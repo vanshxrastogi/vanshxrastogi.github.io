@@ -41,7 +41,7 @@ class EmbeddedFilmMetadataTests(unittest.TestCase):
                 self.assertTrue(frame['title'])
                 self.assertIn('allowfullscreen', frame)
                 self.assertNotIn('autoplay', frame['allow'])
-                viewport = '16/9' if project['id'] == 'buddha-english-full-film' else project['aspectRatio'].replace(':', '/')
+                viewport = project.get('presentationRatio', project['aspectRatio']).replace(':', '/')
                 self.assertIn('aspect-ratio:' + viewport, frame['style'])
                 self.assertTrue(any(tag == 'a' and attrs.get('href') == project['video'] for tag, attrs in parser.tags))
                 row = next(row for row in sitemap if project['id'] in row.find('s:loc', ns).text)
@@ -79,4 +79,6 @@ class EmbeddedFilmMetadataTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
 
