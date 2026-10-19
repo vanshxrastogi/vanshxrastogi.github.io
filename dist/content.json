@@ -418,119 +418,136 @@
       "group": "01 / Video Generation",
       "logo": "/logos/higgsfield.svg",
       "url": "https://higgsfield.ai/",
-      "description": "AI scenes, cinematic motion and visual effects."
+      "description": "AI scenes, cinematic motion and visual effects.",
+      "details": "Develop a scene around a clear subject, action and camera intention. Compare motion variations before choosing a take."
     },
     {
       "name": "Seedance",
       "group": "01 / Video Generation",
       "logo": "/logos/seedance.ico",
       "url": "https://seed.bytedance.com/en/",
-      "description": "Video generation from creative inputs."
+      "description": "Video generation from creative inputs.",
+      "details": "Start with a precise subject, setting and movement brief. Review generated takes for continuity, anatomy and unwanted motion."
     },
     {
       "name": "Runway",
       "group": "01 / Video Generation",
       "logo": "/logos/runway.png",
       "url": "https://runway.com/",
-      "description": "Generate and edit video, images and audio."
+      "description": "Generate and edit video, images and audio.",
+      "details": "Explore visual ideas and compare generated takes. Keep reference images and a consistent shot brief to guide iteration."
     },
     {
       "name": "MiniMax",
       "group": "01 / Video Generation",
       "logo": "/logos/minimax.webp",
       "url": "https://www.minimax.io/",
-      "description": "Generative AI models and media tools."
+      "description": "Generative AI models and media tools.",
+      "details": "Explore generated media from a defined creative brief. Check output consistency and suitability before final editing."
     },
     {
       "name": "Google Flow",
       "group": "01 / Video Generation",
       "logo": "/logos/flow.png",
       "url": "https://labs.google/fx/tools/flow",
-      "description": "AI filmmaking and scene creation."
+      "description": "AI filmmaking and scene creation.",
+      "details": "Develop shots around a scene idea. Describe the action and camera intention separately so the result is easier to evaluate."
     },
     {
       "name": "Kling AI",
       "group": "01 / Video Generation",
       "logo": "/logos/kling.png",
       "url": "https://klingai.com/",
-      "description": "AI video and image generation."
+      "description": "AI video and image generation.",
+      "details": "Plan the subject motion and viewpoint before generating. Compare takes for stable details and believable movement."
     },
     {
       "name": "ChatGPT",
       "group": "02 / Images & Story Development",
       "logo": "/logos/chatgpt.svg",
       "url": "https://chatgpt.com/",
-      "description": "Ideas, scripts and visual concepts."
+      "description": "Ideas, scripts and visual concepts.",
+      "details": "Develop loglines, scene beats, dialogue alternatives and shot-list drafts. Review facts and refine the writing for the intended audience."
     },
     {
       "name": "Midjourney",
       "group": "02 / Images & Story Development",
       "logo": "/logos/midjourney.png",
       "url": "https://www.midjourney.com/",
-      "description": "Image generation and visual exploration."
+      "description": "Image generation and visual exploration.",
+      "details": "Explore composition, lighting, wardrobe and environment references. Choose a coherent visual direction before developing film shots."
     },
     {
       "name": "ComfyUI",
       "group": "02 / Images & Story Development",
       "logo": "/logos/comfyui.png",
       "url": "https://comfy.org/",
-      "description": "Node-based generative image workflows."
+      "description": "Node-based generative image workflows.",
+      "details": "Organize generation steps in a node graph. Reuse a controlled workflow and record settings to make iteration easier."
     },
     {
       "name": "ElevenLabs",
       "group": "03 / Voice, Music & Sound",
       "logo": "/logos/elevenlabs.svg",
       "url": "https://elevenlabs.io/",
-      "description": "Voiceover, dubbing and sound effects."
+      "description": "Voiceover, dubbing and sound effects.",
+      "details": "Develop narration and voice-led scenes. Review pronunciation, pacing and emotion, then balance the recording with music."
     },
     {
       "name": "Suno",
       "group": "03 / Voice, Music & Sound",
       "logo": "/logos/suno.png",
       "url": "https://suno.com/",
-      "description": "Music and song generation."
+      "description": "Music and song generation.",
+      "details": "Explore music directions from mood and style briefs. Compare arrangements against the film’s pace and dialogue."
     },
     {
       "name": "DaVinci Resolve",
-      "group": "04 / Editing, Colour & 3D",
+      "group": "04 / Editing & Colour Grading",
       "logo": "/logos/davinciresolve.svg",
       "url": "https://www.blackmagicdesign.com/products/davinciresolve",
-      "description": "Editing, colour grading and finishing."
+      "description": "Editing, colour grading and finishing.",
+      "details": "Assemble the edit, balance exposure and white balance, match shots and develop a coherent colour look. Check skin tones and export settings."
     },
     {
       "name": "Blender",
-      "group": "04 / Editing, Colour & 3D",
+      "group": "04 / Editing & Colour Grading",
       "logo": "/logos/blender.svg",
       "url": "https://www.blender.org/",
-      "description": "3D scenes, animation and virtual cameras."
+      "description": "3D scenes, animation and virtual cameras.",
+      "details": "Build and light 3D scenes, animate objects and plan virtual-camera moves. Preview composition before rendering."
     },
     {
       "name": "Premiere Pro",
-      "group": "04 / Editing, Colour & 3D",
+      "group": "04 / Editing & Colour Grading",
       "logo": "/logos/adobepremierepro.svg",
       "url": "https://www.adobe.com/products/premiere.html",
-      "description": "Timeline editing and film assembly."
+      "description": "Timeline editing and film assembly.",
+      "details": "Organize footage, assemble scenes and refine pacing on the timeline. Work with sound, titles and delivery versions."
     },
     {
       "name": "Higgsfield Cinema Studio",
       "group": "05 / Camera & Scene Direction",
       "logo": "/logos/higgsfield.svg",
       "url": "https://higgsfield.ai/cinema-studio",
-      "description": "Cinema-oriented scene creation within Higgsfield."
+      "description": "Cinema-oriented scene creation within Higgsfield.",
+      "details": "Translate a shot brief into scene and camera choices. Evaluate framing, subject continuity and the movement between the opening and closing frame."
     },
     {
       "name": "Eleven Music",
       "group": "03 / Voice, Music & Sound",
       "logo": "/logos/elevenlabs.svg",
       "url": "https://elevenlabs.io/music",
-      "description": "Generate music and shape a track’s composition."
+      "description": "Generate music and shape a track’s composition.",
+      "details": "Shape a musical direction around mood, energy and structure. Review the track against picture before selecting the final cue."
     },
     {
       "name": "DaVinci Fairlight",
       "group": "03 / Voice, Music & Sound",
       "logo": "/logos/davinciresolve.svg",
       "url": "https://www.blackmagicdesign.com/products/davinciresolve/fairlight",
-      "description": "Dialogue cleanup, sound editing and final mixes."
+      "description": "Dialogue cleanup, sound editing and final mixes.",
+      "details": "Edit dialogue, control levels and blend ambience, effects and music. Check the final mix on both headphones and speakers."
     }
   ],
   "background": "/media/red-background.png",
