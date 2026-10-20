@@ -1,6 +1,6 @@
 """Dependency-free editorial publishing. Drafts never enter the production build."""
 import argparse, html, json, math, re, shutil
-from datetime import date
+from datetime import date, datetime, timezone, timedelta
 from email.utils import formatdate
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -53,7 +53,7 @@ def load_posts(include_drafts=False):
         slugs.add(p['slug']); date.fromisoformat(p['updated'])
         if p['status']=='published':
             assert p.get('reviewed') is True and p.get('published'), 'Publication needs editorial approval/date'
-            assert date.fromisoformat(p['published']) <= date.today()
+            assert date.fromisoformat(p['published']) <= datetime.now(timezone(timedelta(hours=5, minutes=30))).date()
         elif not include_drafts: continue
         p['body'],p['toc']=markdown(body); p['minutes']=max(1,math.ceil(len(body.split())/200)); posts.append(p)
     return sorted(posts,key=lambda p:p.get('published',p['updated']),reverse=True)
