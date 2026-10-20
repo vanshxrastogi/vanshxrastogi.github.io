@@ -12,14 +12,14 @@ class BlogSafetyTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(dir=ROOT / 'tests') as tmp:
             dest=Path(tmp); build_blog.build_blog(dest)
             for p in build_blog.load_posts(True):
-                self.assertFalse((dest/'blog'/p['slug']/'index.html').exists())
-                self.assertNotIn(p['slug'],(dest/'sitemap.xml').read_text())
-                self.assertNotIn(p['slug'],(dest/'blog/feed.xml').read_text())
+                self.assertEqual((dest/'blog'/p['slug']/'index.html').exists(),p['status']=='published')
+                if p['status']=='draft': self.assertNotIn(p['slug'],(dest/'sitemap.xml').read_text())
+                if p['status']=='draft': self.assertNotIn(p['slug'],(dest/'blog/feed.xml').read_text())
             ET.parse(dest/'sitemap.xml'); ET.parse(dest/'blog/feed.xml')
     def test_preview_drafts_are_noindex_and_links_resolve(self):
         with tempfile.TemporaryDirectory(dir=ROOT / 'tests') as tmp:
             dest=Path(tmp); posts=build_blog.build_blog(dest,True)
-            self.assertEqual(len(posts),3)
+            self.assertEqual(len(posts),10)
             for p in posts:
                 text=(dest/'blog'/p['slug']/'index.html').read_text(encoding='utf-8')
                 self.assertIn('noindex,follow',text)
